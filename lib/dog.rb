@@ -4,6 +4,9 @@ class Dog
     @breed = breed
   end
   
+  if!(initialize(name,breed))
+    @name = name
+    @bred = "Mutt"
     
   
   def name 
