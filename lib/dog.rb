@@ -4,7 +4,8 @@ class Dog
       @name = name
       @breed = breed
     else
-      puts "Mutt"
+      @name = name
+      @breed = "Mutts"
     end
   end
   
