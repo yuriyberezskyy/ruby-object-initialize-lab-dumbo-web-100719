@@ -7,6 +7,7 @@ class Dog
   if!(initialize(name,breed))
     @name = name
     @bred = "Mutt"
+  end
     
   
   def name 
