@@ -5,6 +5,7 @@ class Dog
       @breed = breed
     else
       puts "Mutt"
+    end
   end
   
   
