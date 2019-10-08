@@ -4,7 +4,8 @@ class Dog
     @name = name
     @breed = breed
   end
-  
+  if!(@breed)
+    
   
   def name 
     @name
