@@ -3,7 +3,7 @@ class Dog
     if(name && breed)
       @name = name
       @breed = breed
-    else
+    elseif(name)
       @name = name
       @breed = "Mutt"
     end
